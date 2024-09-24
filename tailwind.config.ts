@@ -12,23 +12,29 @@ const config: Config = {
       colors: {
         // Light Mode
         light: {
-          background: "#FFFFFF",
-          primaryText: "#333333",
-          secondaryText: "#666666",
-          accent: "#007BFF",
-          completedTask: "#28A745",
-          pendingTask: "#FFC107",
-          error: "#DC3545",
+          background: "#F5F7FA", // Soft light gray
+          lighterBackground: "#EFF2F5", // Lighter than foreground
+          foreground: "#FFFFFF", // Pure white for elements
+          primaryText: "#2C3E50", // Dark slate for text
+          secondaryText: "#7F8C8D", // Muted gray for secondary text
+          accent: "#1ABC9C", // Soft teal for accents
+          accentHover: "#16A085", // Darker teal for hover states
+          completedTask: "#27AE60", // Fresh green for completed tasks
+          pendingTask: "#F39C12", // Warm yellow for pending tasks
+          error: "#E74C3C", // Bright red for error states
         },
         // Dark Mode
         dark: {
-          background: "#121212",
-          primaryText: "#E0E0E0",
-          secondaryText: "#B3B3B3",
-          accent: "#1E90FF",
-          completedTask: "#34C759",
-          pendingTask: "#FFCA28",
-          error: "#FF3B30",
+          background: "#181A1B", // Deep dark background
+          lighterBackground: "#22272A", // Lighter than foreground
+          foreground: "#2C3E50", // Dark slate for foreground
+          primaryText: "#ECF0F1", // Light text for readability
+          secondaryText: "#95A5A6", // Soft gray for secondary text
+          accent: "#1ABC9C", // Same teal for accents
+          accentHover: "#16A085", // Teal hover for dark mode
+          completedTask: "#2ECC71", // Vibrant green for completed tasks
+          pendingTask: "#F39C12", // Same warm yellow for pending tasks
+          error: "#E74C3C", // Consistent red for errors
         },
       },
       borderRadius: {
