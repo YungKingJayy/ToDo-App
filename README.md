@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/McjethroKalu/todo-app">
-    <img src="/todo.png" alt="Logo" width="80" height="80">
+    <img src="/public/todo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Todo App</h3>
@@ -88,7 +88,7 @@ Follow the steps below to get the project running locally.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at [https://www.mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas)
 2. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
@@ -126,20 +126,8 @@ Roadmap
  Add mobile responsiveness
 See the open issues for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> <!-- CONTRIBUTING -->
-Contributing
-Contributions are what make the open source community such a fantastic place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-If you have a suggestion that would make this project better, please fork the repo and create a pull request. You can also open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
-
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-Top contributors:
-<a href="https://github.com/McjethroKalu/todo-app/graphs/contributors"> <img src="https://contrib.rocks/image?repo=McjethroKalu/todo-app" alt="contrib.rocks image" /> </a> <!-- LICENSE -->
+<!-- LICENSE -->
 License
 Distributed under the MIT License. See LICENSE.txt for more information.
 
@@ -171,7 +159,7 @@ MongoDB Documentation
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: /screenshot.png
+[product-screenshot]: /public/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
